@@ -1,0 +1,27 @@
+{
+    "label": "Select Department:",
+    "select_name": "department",
+    "options": [
+      {
+        "value": "1",
+        "label": "Department"
+      },
+      {
+        "value": "2",
+        "label": "Cardiac Clinic"
+      },
+      {
+        "value": "3",
+        "label": "Neurology"
+      },
+      {
+        "value": "4",
+        "label": "Dentistry"
+      },
+      {
+        "value": "5",
+        "label": "Gastroenterology"
+      }
+    ]
+  }
+  
