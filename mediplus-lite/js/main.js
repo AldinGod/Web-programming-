@@ -78,6 +78,7 @@ Version:	1.1
 		/*===============================
 			Hero Slider JS
 		=================================*/ 
+		$(document).ready(function() {
 		$(".hero-slider").owlCarousel({
 			loop:true,
 			autoplay:true,
@@ -90,38 +91,41 @@ Version:	1.1
 			navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
 			dots:false,
 		});
-
+	})
+	
 		/*===============================
 			Testimonial Slider JS
 		=================================*/ 
-		$('.testimonial-slider').owlCarousel({
-			items:3,
-			autoplay:true,
-			autoplayTimeout:4500,
-			smartSpeed:300,
-			autoplayHoverPause:true,
-			loop:true,
-			merge:true,
-			nav:false,
-			dots:true,
-			responsive:{
-				1: {
-					items:1,
-				},
-				300: {
-					items:1,
-				},
-				480: {
-					items:1,
-				},
-				768: {
-					items:2,
-				},
-				1170: {
-					items:3,
-				},
-			}
-		});
+		$(document).ready(function() {
+			$('.testimonial-slider').owlCarousel({
+				items:3,
+				autoplay:true,
+				autoplayTimeout:4500,
+				smartSpeed:300,
+				autoplayHoverPause:true,
+				loop:true,
+				merge:true,
+				nav:false,
+				dots:true,
+				responsive:{
+					1: {
+						items:1,
+					},
+					300: {
+						items:1,
+					},
+					480: {
+						items:1,
+					},
+					768: {
+						items:2,
+					},
+					1170: {
+						items:3,
+					},
+				}
+			});
+		})
 		
 		/*===============================
 			Portfolio Slider JS
